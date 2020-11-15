@@ -132,9 +132,12 @@ def main():
 
     im_matches1 = draw_corner_coordinates(img_query1, img_main, matches1, kp1, kp3)
     im_matches2 = draw_corner_coordinates(img_query2, img_main, matches2, kp2, kp3)
+    
+    im_matches1_resized = cv2.resize(im_matches1, (900, 600))
+    im_matches2_resized = cv2.resize(im_matches2, (900, 600))
 
-    cv2.imshow('Query Image 1 Match', im_matches1)
-    cv2.imshow('Query Image 2 Match', im_matches2)
+    cv2.imshow('Query Image 1 Match', im_matches1_resized)
+    cv2.imshow('Query Image 2 Match', im_matches2_resized)
     cv2.waitKey()
 
 
