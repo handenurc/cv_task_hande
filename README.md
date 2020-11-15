@@ -1,7 +1,12 @@
 # Locating a Defined Area in the Star Map
 
-In this python script, I tried to locate a defined area in a given image using Brute-Force Matching with ORB Descriptors. The output images give related feature matches and corresponding corner points of the defined area using homography techniques.
+In this python script, I tried to locate a defined area in a given image using Brute-Force Matching with ORB Descriptors. The output images give related feature matches and corresponding corner points of the defined area using homography techniques. 
 
+The python script can be run from terminal with the command:<br/>
+``` Ruby
+python cv_task_handenur.py --input1 'Small_image.png' --input2 'Small_image_rotated.png' --input3 'StarMap.png'
+```
+You can see the original images and the output images below:<br/>
 
 <p align="center">
 <img src="https://github.com/handenurc/cv_task_hande/blob/master/StarMap.png" height="400" width="600"> 
@@ -23,7 +28,7 @@ Cropped (and possibly rotated) areas
 <img src="https://github.com/handenurc/cv_task_hande/blob/master/Matches1.png" height="600" width="800">
 <p>
 <p align="center">
-Resulting image1: feature matches and corner points (blue) between first cropped image and Star Map
+Output image 1: Feature matches and corner points (blue) between cropped image (left) and Star Map (right)
 <p>
   
 <p align="center">
@@ -31,5 +36,5 @@ Resulting image1: feature matches and corner points (blue) between first cropped
 <p>
 
 <p align="center">
-Resulting image 2: feature matches and corner points (blue) between second cropped image and Star Map
+Output image 2: Feature matches and corner points (blue) between cropped and rotated image (left) and Star Map (right)
 <p>
