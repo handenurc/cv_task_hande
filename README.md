@@ -1,6 +1,6 @@
 # Locating a Defined Area in the Star Map
 
-In this python script, I tried to locate a defined area in a given image using ORB feature matching and homography techniques. The output images give related feature matches and corresponding corner points of the defined area.
+In this python script, I tried to locate a defined area in a given image using Brute-Force Matching with ORB Descriptors. The output images give related feature matches and corresponding corner points of the defined area using homography techniques.
 
 
 <p align="center">
