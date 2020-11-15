@@ -28,7 +28,7 @@ Cropped (and possibly rotated) areas
 <img src="https://github.com/handenurc/cv_task_hande/blob/master/Matches1.png" height="600" width="800">
 <p>
 <p align="center">
-Output image 1: Feature matches and corner points (blue) between cropped image (left) and Star Map (right)
+Output image 1: Feature matching lines and corner points (blue) <br/> between cropped image (left) and Star Map (right)
 <p>
   
 <p align="center">
@@ -36,5 +36,5 @@ Output image 1: Feature matches and corner points (blue) between cropped image (
 <p>
 
 <p align="center">
-Output image 2: Feature matches and corner points (blue) between cropped and rotated image (left) and Star Map (right)
+Output image 2: Feature matches and corner points (blue) <br/> between cropped and rotated image (left) and Star Map (right)
 <p>
