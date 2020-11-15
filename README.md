@@ -21,7 +21,7 @@ Image: Star Map
 <p>
   
 <p align="center">
-Cropped (and possibly rotated) areas
+Images of cropped (and possibly rotated) areas
 <p>
 
 <p align="center">
